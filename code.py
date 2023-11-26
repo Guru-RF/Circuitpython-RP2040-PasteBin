@@ -6,3 +6,7 @@ microcontroller.reset()
 # remote /boot.py (re-enable disk)
 import os
 os.remove("/boot.py")
+import microcontroller
+microcontroller.reset()
+
+
